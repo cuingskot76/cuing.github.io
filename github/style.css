@@ -1,0 +1,335 @@
+/*kode css riset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*STYLE*/
+body {
+	font: 18px/28px Inconsolata, sans-serif;
+	background-color: white;
+	color: #333;
+}
+
+.container {
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+/*header*/
+.container .header {
+	background-color: black;
+	position: fixed;
+	box-sizing: border-box;
+	width: 100%;
+	z-index: 99999;
+}
+.header ul li {
+	display: inline-block;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.header a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 141px 15px 141px;
+
+
+}
+
+.header a:hover {
+	color: black;
+	background-color: #A9A9A9;
+}
+
+/*HERO*/
+.container .hero {
+	height: 650px;
+	background-image: url(https://i.postimg.cc/KYg6B21z/drew-coffman-j-UOa-ONo-XJQk-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -100px;
+
+}
+
+/*Nama-Hero*/
+.hero .nama {
+	font-family: Inconsolata;
+	font-size: 150px;
+	line-height: 200px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 100px;
+
+}
+
+
+/*Container2*/
+.container2 {
+	width: 900px;
+	background-color: white;
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	
+}
+
+
+/*Content*/
+.container2 .content {
+	padding: 100px 0 100px 0;
+	color: white;
+	text-align: center;
+
+}
+.content .tentang {
+	font-size: 20px;
+	line-height: 20px;
+	background-color: black;
+	padding: 10px;
+	display: inline;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+}
+
+/*Isi*/
+.isi .dibuat{
+	font-family: Inconsolata;
+	font-size: 20px;
+	word-spacing: 5px;
+	/*Jarak antar huruf*/
+	line-height: 30px;
+
+}
+
+.isi .pemilik {
+	font-family: Inconsolata;
+	font-size: 20px;
+	word-spacing: 5px;
+	/*Jarak antar huruf*/
+	line-height: 30px;
+	background-color: #e6e6e6;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px 0 20px 0;
+	border-left: 10px solid #bfbfbf;
+}
+
+.container2 .hero2 {
+	height: 550px;
+	background-image: url(https://i.postimg.cc/Tw64bW87/petr-sevcovic-q-E1jx-YXiw-OA-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -100px;
+	margin-top: 20px;
+}
+
+.container2 .info {
+	margin-top: -50px;
+	line-height: 50px;
+	word-spacing: 5px;
+	font-weight: bolder;
+}
+
+/*Menu*/
+.container2 .the-menu {
+	padding: 100px 0 100px 0;
+	color: white;
+	text-align: center;
+}
+.the-menu .menu {
+	font-size: 20px;
+	background-color: black;
+	padding: 10px;
+	display: inline;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+
+}
+
+/*Makanan*/
+.container2 .makanan {
+	background-color: #F8F8F8;
+	border: 5px solid #F8F8F8;
+	box-shadow: 5px 5px 30px #C0C0C0;
+	margin-bottom: 50px;
+}
+
+.makanan .pilihan {
+	font: 20px/28px arial, sans-serif;
+	padding: 20px;
+}
+
+.makanan h5 {
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+.pilihan .detail {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: 	#B8B8B8;
+}
+
+.container2 .hero-makanan {
+	height: 500px;
+	background-image: url(https://i.postimg.cc/TPg2N119/nathalia-segato-w-KHod59-AAh-E-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Where*/
+.container2 .where {
+	padding: 100px 0 100px 0;
+	color: white;
+	text-align: center;
+}
+.where .where-find {
+	font-size: 20px;
+	background-color: black;
+	padding: 10px;
+	display: inline;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+
+}
+
+/*Alamat*/
+.container2 .alamat {
+	font-family: verdana;
+	word-spacing: 3px;
+	margin-bottom: 25px;
+}
+.container2 .hero-alamat {
+	height: 500px;
+	background-image: url(https://i.postimg.cc/jqN1sb9q/tim-trad-r2-NBj6-GAJzw-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+/*Fyi*/
+.container2 .fyi  {
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+.fyi .fyi2 {
+	background-color: black;
+	display: inline-block;
+	color: white;
+	float: left;
+	margin-right: 20px;
+	padding: 0 10px 0 10px;
+}
+.fyi .note {
+	font-size: 18px;
+	word-spacing: 5px;
+	font-family: verdana;
+	line-height: 30px;
+
+}
+
+.container .footer {
+	position: absolute;
+	padding-top: 3900px;
+	width: 100%;
+
+}
+.footer .sosial {
+	background-color: 	#D3D3D3	;
+	padding: 50px;
+}
+
+.footer .ig {
+	width: 24px;
+	height: 24px;
+	font-weight: 24px;
+	background-image: url(icons8-facebook-24.png);
+	
+}
+
+
+
+
+
+
+/*CSS RISET*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
